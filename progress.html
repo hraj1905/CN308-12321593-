@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language Learning Progress</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2rem;
+      background-color: #f5f5f5;
+      background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230616/pngtree-contemporary-business-infographics-3d-rendered-progress-bar-and-modern-chart-image_3622436.jpg);
+      background-size:cover;
+    }
+
+    h1 {
+      text-align: center;
+      color: #af9999;
+    }
+
+    .progress-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: space-around;
+    }
+
+    .progress-card {
+      background-color: transparent;
+      border-radius: 5px;
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(92, 240, 193, 0.1);
+      text-align: center;
+      width: calc(33% - 1rem); /* Responsive card size */
+    }
+
+    .progress-card h2 {
+      margin-top: 0;
+      color: #b8a0a0;
+    }
+
+    .progress-bar {
+      background-color: #ddd;
+      border-radius: 5px;
+      height: 20px;
+      margin-bottom: 1rem;
+      position: relative;
+    }
+
+    .progress {
+      background-color: #d1f33d; /* Customize progress bar color */
+      height: 100%;
+      transition: width 0.5s ease-in-out;
+    }
+
+    .progress-card p {
+      margin-bottom: 0;
+      font-size: 0.8rem;
+      color: #a1e7ca;
+    }
+    .progress-card li{
+        color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h1>Your Language Learning Progress</h1>
+  <div class="progress-container">
+    <section class="progress-card">
+      <h2>Course Progress</h2>
+      <div class="progress-bar">
+        <div class="progress" style="width: 70%"></div>
+      </div>
+      <p>You've completed 70% of the Spanish Beginner course!</p>
+    </section>
+
+    <section class="progress-card">
+      <h2>Overall Progress</h2>
+      <p>Level: Beginner (50%)</p>
+      <div class="progress-bar">
+        <div class="progress" style="width: 50%"></div>
+        <p>Vocabulary</p>
+      </div>
+      <div class="progress-bar">
+        <div class="progress" style="width: 30%"></div>
+        <p>Grammar</p>
+      </div>
+    </section>
+
+    <section class="progress-card">
+      <h2>Test Progress</h2>
+      <ul>
+        <li>Unit 1 Test: 85%</li>
+        <li>Unit 2 Test: 70%</li>
+      </ul>
+    </section>
+
+    <section class="progress-card">
+      <h2>New Learning This Week</h2>
+      <ul>
+        <li>Learned 10 new vocabulary words</li>
+        <li>Mastered 5 grammar points</li>
+      </ul>
+    </section>
+
+    </div>
+</body>
+</html>

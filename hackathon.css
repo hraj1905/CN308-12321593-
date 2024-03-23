@@ -6,7 +6,7 @@ body{
 title{
     text-align: center;
 }
-#lessons{
+/*#lessons{
     height: 100px;
     width: 100px;
     border-radius: 25%;
@@ -16,7 +16,7 @@ title{
 #vocabulary a{
     height: max-content ;
     width: max-content;
-}
+}*/
 h1{
     text-align: center;
 }
@@ -28,10 +28,28 @@ nav ul {
     align-items: center;
     
   }
+  .image{
+    align-self: center;
+    padding-left: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   
   nav ul li {
     margin: 0 10px;
     
+  }
+  .about{
+    border: 5px solid lightblue;
+    box-sizing: content-box;
+    background-color: aliceblue;
+  }
+  p{
+    font-size: larger;
+    padding-top: 0px;
+    text-align: center;
+    width: fit-content;
+  
   }
   
   nav a {

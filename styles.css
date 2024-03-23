@@ -24,6 +24,9 @@ body {
 	background:transparent;
 	border-radius: 5px;
 }
+.textbox{
+	background-color: transparent;
+}
 
 .login-box h2 {
 	text-align: center;
